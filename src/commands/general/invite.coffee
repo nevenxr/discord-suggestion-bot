@@ -30,6 +30,7 @@ class invite extends Application
                 }
             ],
             components: [btn]
-        };
+        }
+        .catch -> {};
 
 module.exports = invite;
