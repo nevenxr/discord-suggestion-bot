@@ -1,0 +1,22 @@
+{
+  "name": "suggestion-bot",
+  "version": "1.0.0",
+  "description": "A Discord suggestion bot made in CoffeeScript with Discord-Jinx and Mongoose.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "coffee -c -o dist src",
+    "dev": "coffee -o dist -w -c src"
+  },
+  "author": "Neven",
+  "license": "MIT",
+  "devDependencies": {
+    "coffeescript": "^2.6.1"
+  },
+  "dependencies": {
+    "discord-jinx": "^1.1.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "glob": "^7.2.0",
+    "mongoose": "^6.2.2"
+  }
+}
